@@ -1,0 +1,13 @@
+# Generated pipeline output — reproducible by re-running the scripts.
+# sample_output/ is committed on purpose; this data/ dir is the live
+# working directory when you actually run the pipeline yourself.
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

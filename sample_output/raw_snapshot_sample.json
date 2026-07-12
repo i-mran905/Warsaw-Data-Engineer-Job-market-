@@ -1,0 +1,3425 @@
+{
+  "ingested_at_utc": "2026-07-12T15:42:58Z",
+  "source": "apify:cheap_scraper/linkedin-job-scraper",
+  "run_id": "vSlGyE6E52SPVTueU",
+  "dataset_id": "37a1iaXLlf3f1k74U",
+  "query": {
+    "keyword": "Data Engineer",
+    "location": "Warsaw, Poland",
+    "publishedAt_window": "r2592000"
+  },
+  "note": "Trimmed fields (no jobDescription) for this in-chat snapshot due to context-size limits. The ingest.py script (run outside chat, with your own Apify token) pulls every field including full job descriptions.",
+  "item_count": 126,
+  "items": [
+    {
+      "jobId": "4435900381",
+      "jobTitle": "Data & Software Engineer 5 — System Insights & Productivity Metrics",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Netflix",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-software-engineer-5-%E2%80%94-system-insights-productivity-metrics-at-netflix-4435900381?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Other",
+      "sector": "Entertainment Providers",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4428934242",
+      "jobTitle": "Middle Data Engineer (Azure Databricks)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "companyName": "Miratech",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/middle-data-engineer-azure-databricks-at-miratech-4428934242?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Software Development and IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433341239",
+      "jobTitle": "Analityk(-czka) danych",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-25T00:00:00.000Z",
+      "companyName": "Erste Bank Polska",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/analityk-czka-danych-at-erste-bank-polska-4433341239?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Banking",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4432646584",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-25T00:00:00.000Z",
+      "companyName": "Coty",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-coty-4432646584?trk=public_jobs_topcard-title",
+      "contractType": "Other",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Personal Care Product Manufacturing",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4430641775",
+      "jobTitle": "Platform Customer Success Engineer, Data & AI",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-27T00:00:00.000Z",
+      "companyName": "Procter & Gamble",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/platform-customer-success-engineer-data-ai-at-procter-gamble-4430641775?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Project Management, Design, and Information Technology",
+      "sector": "Manufacturing",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4328059432",
+      "jobTitle": "Equipment Data Management & Migration Consultant",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Accenture Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/equipment-data-management-migration-consultant-at-accenture-poland-4328059432?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Entry level",
+      "workType": "Strategy/Planning and Consulting",
+      "sector": "Business Consulting and Services",
+      "keywordMatchScorePercentage": 0,
+      "matchedKeywords": [],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4427553559",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "Software Mind",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-software-mind-4427553559?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4315928754",
+      "jobTitle": "Staff Software Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "4 days ago",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "companyName": "Asana",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/staff-software-engineer-at-asana-4315928754?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 0,
+      "matchedKeywords": [],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4426867206",
+      "jobTitle": "Data Engineer - HR support (m/f/n)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 days ago",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "companyName": "InPost",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-hr-support-m-f-n-at-inpost-4426867206?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Analyst",
+      "sector": "Freight and Package Transportation",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4430428890",
+      "jobTitle": "Senior Cloud Engineer Analytics & AI Platform",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "companyName": "Bayer",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-cloud-engineer-analytics-ai-platform-at-bayer-4430428890?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Chemical Manufacturing, Pharmaceutical Manufacturing, and Biotechnology Research",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4418769301",
+      "jobTitle": "Big Data Engineer with Java",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "companyName": "ING Hubs Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/big-data-engineer-with-java-at-ing-hubs-poland-4418769301?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Other",
+      "sector": "Banking, Information Services, and Financial Services",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435100244",
+      "jobTitle": "Senior Software Backend Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Box",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-software-backend-engineer-at-box-4435100244?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "Construction, Software Development, and IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433899000",
+      "jobTitle": "AWS Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "companyName": "Us3 Consulting",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/aws-data-engineer-at-us3-consulting-4433899000?trk=public_jobs_topcard-title",
+      "contractType": "Contract",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Information Technology & Services",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Git",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4436092384",
+      "jobTitle": "System Engineer III",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "5 days ago",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "companyName": "IGT",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/system-engineer-iii-at-igt-4436092384?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Other",
+      "sector": "Gambling Facilities and Casinos",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4425773260",
+      "jobTitle": "Cloud Data Engineer (f/m/x)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "5 days ago",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "companyName": "Sii Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/cloud-data-engineer-f-m-x-at-sii-poland-4425773260?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4436739625",
+      "jobTitle": "🟠Senior Data Engineer🟠",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "Luxoft Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/%F0%9F%9F%A0senior-data-engineer%F0%9F%9F%A0-at-luxoft-poland-4436739625?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology, Consulting, and Project Management",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435102056",
+      "jobTitle": "Junior Data Analyst (Power BI)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "companyName": "IT Squad",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/junior-data-analyst-power-bi-at-it-squad-4435102056?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4404484346",
+      "jobTitle": "Software Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "companyName": "Moderna",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-at-moderna-4404484346?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Biotechnology Research",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4377953195",
+      "jobTitle": "Data Platform Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "companyName": "Brightstar Lottery",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-platform-engineer-at-brightstar-lottery-4377953195?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4419676553",
+      "jobTitle": "Staff Software Engineer, AI",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "companyName": "Asana",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/staff-software-engineer-ai-at-asana-4419676553?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4388530860",
+      "jobTitle": "API Engineer (Python)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "IDC",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/api-engineer-python-at-idc-4388530860?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Technology, Information and Internet",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4434511965",
+      "jobTitle": "Analityk ds. Modelowania Danych / Analityk wsparcia tradingu",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "4 days ago",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "companyName": "Polenergia",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/analityk-ds-modelowania-danych-analityk-wsparcia-tradingu-at-polenergia-4434511965?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Analyst",
+      "sector": "Renewable Energy Semiconductor Manufacturing, Services for Renewable Energy, and Data Infrastructure and Analytics",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4429868804",
+      "jobTitle": "Senior Database Engineer",
+      "location": "Warsaw Metropolitan Area",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "companyName": "Rydoo",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-database-engineer-at-rydoo-4429868804?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Production",
+      "sector": "Software Development and Financial Services",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4434101838",
+      "jobTitle": "Senior Databricks Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "companyName": "Capgemini",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-databricks-data-engineer-at-capgemini-4434101838?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4338293868",
+      "jobTitle": "Data Engineer (Process Mining) | f/m/d",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-19T00:00:00.000Z",
+      "companyName": "ERGO",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-process-mining-f-m-d-at-ergo-4338293868?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "C++"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4429944904",
+      "jobTitle": "AI / Machine Learning Engineer Leaders and Decision-Makers for Workflow Management Tools - Poland",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "companyName": "Prolific",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/ai-machine-learning-engineer-leaders-and-decision-makers-for-workflow-management-tools-poland-at-prolific-4429944904?trk=public_jobs_topcard-title",
+      "contractType": "Temporary",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "C++"
+      ],
+      "salaryInfo": [
+        "$200"
+      ]
+    },
+    {
+      "jobId": "4407331699",
+      "jobTitle": "Sr. Software Engineer - Portfolio Services",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "Addepar",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/sr-software-engineer-portfolio-services-at-addepar-4407331699?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 0,
+      "matchedKeywords": [],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438822695",
+      "jobTitle": "Senior Python Developer (CIB Treasury) - Vice President",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "JPMorganChase",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-python-developer-cib-treasury-vice-president-at-jpmorganchase-4438822695?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering and Information Technology",
+      "sector": "Financial Services",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Databricks",
+        "Git",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4429327700",
+      "jobTitle": "Software Engineer III, Vertex Inference",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Google",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-iii-vertex-inference-at-google-4429327700?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology and Engineering",
+      "sector": "Information Services and Technology, Information and Internet",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4416249613",
+      "jobTitle": "Data Platform Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "companyName": "Verifone",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-platform-engineer-at-verifone-4416249613?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology and Engineering",
+      "sector": "Banking",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4436818337",
+      "jobTitle": "Senior Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "4 days ago",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "companyName": "Nearmap",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-at-nearmap-4436818337?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Production, Distribution, and Engineering",
+      "sector": "Software Development and IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4432553464",
+      "jobTitle": "Data Analyst",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "companyName": "Erste Bank Polska",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-analyst-at-erste-bank-polska-4432553464?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Banking",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4437422959",
+      "jobTitle": "Machine Learning Engineer, Consumer Alliance",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "5 days ago",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "companyName": "HelloFresh",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/machine-learning-engineer-consumer-alliance-at-hellofresh-4437422959?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Consumer Services",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4364812513",
+      "jobTitle": "Senior / Expert AWS AI Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-20T00:00:00.000Z",
+      "companyName": "Nordea",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-expert-aws-ai-engineer-at-nordea-4364812513?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering and Information Technology",
+      "sector": "Banking",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4423267959",
+      "jobTitle": "Software Engineer, Automation Platform & Workflows",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "companyName": "Waymo",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-automation-platform-workflows-at-waymo-4423267959?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Technology, Information and Internet",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "C++"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435608155",
+      "jobTitle": "SAP BW / BDC Developer (Data Engineer - SAP Data & BI) (m/f/d)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 days ago",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "companyName": "TD SYNNEX Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/sap-bw-bdc-developer-data-engineer-sap-data-bi-m-f-d-at-td-synnex-poland-4435608155?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4417702775",
+      "jobTitle": "Forward Deployed Engineer, Applied AI",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "15 hours ago",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "companyName": "Snowflake",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/forward-deployed-engineer-applied-ai-at-snowflake-4417702775?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4434441354",
+      "jobTitle": "Solution Architect (Advanced Analytics) | f/m/d",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "companyName": "ERGO",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/solution-architect-advanced-analytics-f-m-d-at-ergo-4434441354?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Insurance and IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "Databricks",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4398844068",
+      "jobTitle": "Data Platform Engineer (DevOps / Cloud)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "6 days ago",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "companyName": "Deloitte",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-platform-engineer-devops-cloud-at-deloitte-4398844068?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Business Consulting and Services",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4416233224",
+      "jobTitle": "Analytics Engineer III",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "companyName": "Box",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/analytics-engineer-iii-at-box-4416233224?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "Construction, Software Development, and IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4434581064",
+      "jobTitle": "Programista / Data Engineer (BI) (k/m) Lokalizacja: Aleje Stanów Zjednoczonych 61",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "4 days ago",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "companyName": "Cyfrowy Polsat S.A.",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/programista-data-engineer-bi-k-m-lokalizacja-aleje-stan%C3%B3w-zjednoczonych-61-at-cyfrowy-polsat-s-a-4434581064?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Telecommunications",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4432241583",
+      "jobTitle": "Data Governance Platform Engineer",
+      "location": "Warsaw Metropolitan Area",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "companyName": "Luxoft Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-governance-platform-engineer-at-luxoft-poland-4432241583?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Administrative and Accounting/Auditing",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4372620493",
+      "jobTitle": "Staff Data Engineer (Reporting & Analytics) (f/m/d) - Kraków (onsite) OR Poland (remote)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "companyName": "Danaher",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/staff-data-engineer-reporting-analytics-f-m-d-krak%C3%B3w-onsite-or-poland-remote-at-danaher-4372620493?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Medical Equipment Manufacturing",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4407342608",
+      "jobTitle": "Sr. Software Engineer - Portfolio Data Workflows",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "companyName": "Addepar",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/sr-software-engineer-portfolio-data-workflows-at-addepar-4407342608?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4437024128",
+      "jobTitle": "Senior Software Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "companyName": "EasyPark",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-software-engineer-at-easypark-4437024128?trk=public_jobs_topcard-title",
+      "contractType": "Other",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438326687",
+      "jobTitle": "(Junior or Mid) Data Engineer with Snowflake",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Aviva",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/junior-or-mid-data-engineer-with-snowflake-at-aviva-4438326687?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Information Technology",
+      "sector": "Insurance",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435653150",
+      "jobTitle": "Data Engineer z GCP (f/m/x)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Sii Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-z-gcp-f-m-x-at-sii-poland-4435653150?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4434086725",
+      "jobTitle": "Software Engineer, Cloud",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-27T00:00:00.000Z",
+      "companyName": "Redpanda Data",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-cloud-at-redpanda-data-4434086725?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "SQL",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4427329766",
+      "jobTitle": "Big Data Engineer (junior/mid)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "companyName": "ING Hubs Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/big-data-engineer-junior-mid-at-ing-hubs-poland-4427329766?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Other",
+      "sector": "Banking, Information Services, and Financial Services",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "PySpark"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4431598689",
+      "jobTitle": "Python Engineer, Data Platform",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "companyName": "Balyasny Asset Management L.P.",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/python-engineer-data-platform-at-balyasny-asset-management-l-p-4431598689?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "Financial Services",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433944371",
+      "jobTitle": "Expert Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "5 days ago",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "companyName": "GFT Technologies Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/expert-data-engineer-at-gft-technologies-poland-4433944371?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4419030296",
+      "jobTitle": "Mid Data Engineer (Data & AI Factory)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Devoteam",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/mid-data-engineer-data-ai-factory-at-devoteam-4419030296?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Customer Service",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4439393875",
+      "jobTitle": "Research Engineer, Data Infrastructure",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "23 hours ago",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "companyName": "Mistral",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/research-engineer-data-infrastructure-at-mistral-4439393875?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Technology, Information and Internet",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4319846211",
+      "jobTitle": "Software Engineer, Data Infrastructure",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "companyName": "Asana",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-data-infrastructure-at-asana-4319846211?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4432245560",
+      "jobTitle": "Data Analyst (m/f/d)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "companyName": "InPost",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-analyst-m-f-d-at-inpost-4432245560?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Analyst",
+      "sector": "Freight and Package Transportation",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4416822402",
+      "jobTitle": "Media Data Engineer (Databricks)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 days ago",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "companyName": "Procter & Gamble",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/media-data-engineer-databricks-at-procter-gamble-4416822402?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Project Management, Design, and Information Technology",
+      "sector": "Manufacturing",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4430443023",
+      "jobTitle": "DevOps Software Engineer (Gitlab)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "companyName": "BME | Bolsas y Mercados Españoles",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/devops-software-engineer-gitlab-at-bme-bolsas-y-mercados-espa%C3%B1oles-4430443023?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Capital Markets",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4411760921",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-20T00:00:00.000Z",
+      "companyName": "Aristocrat",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-aristocrat-4411760921?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Gambling Facilities and Casinos",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4431118866",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-19T00:00:00.000Z",
+      "companyName": "Neurons Lab",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-neurons-lab-4431118866?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4375197895",
+      "jobTitle": "Data Engineer | TMB",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "companyName": "Inetum",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-tmb-at-inetum-4375197895?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4428356374",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "4 weeks ago",
+      "publishedAt": "2026-06-13T00:00:00.000Z",
+      "companyName": "Integral Solutions - Data & AI",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-integral-solutions-data-ai-4428356374?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Banking",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4414914512",
+      "jobTitle": "Data Developer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 days ago",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "companyName": "CANAL+ Group",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-developer-at-canal%2B-group-4414914512?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Advertising, Business Development, and Marketing",
+      "sector": "Broadcast Media Production and Distribution",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "SQL",
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438646796",
+      "jobTitle": "Senior Data Engineer - Internal Measurement",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Samba",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-internal-measurement-at-samba-4438646796?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Technology, Information and Internet",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": [
+        "$250000.00",
+        "$350000.00"
+      ]
+    },
+    {
+      "jobId": "4434315893",
+      "jobTitle": "Data Engineer (Krakow/Wroclaw/Warsaw, Poland)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "companyName": "Unit8",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-krakow-wroclaw-warsaw-poland-at-unit8-4434315893?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4431103170",
+      "jobTitle": "Data engineer (Banking)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-19T00:00:00.000Z",
+      "companyName": "Integral Solutions - Data & AI",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-banking-at-integral-solutions-data-ai-4431103170?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435526614",
+      "jobTitle": "Data Engineer with Microsoft Fabric (f/m/x)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "companyName": "Sii Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-with-microsoft-fabric-f-m-x-at-sii-poland-4435526614?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4424759439",
+      "jobTitle": "Senior Data Engineer, Marketing Customer Profile (f/m/x)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-27T00:00:00.000Z",
+      "companyName": "HelloFresh",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-marketing-customer-profile-f-m-x-at-hellofresh-4424759439?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Consumer Services",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435456234",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw Metropolitan Area",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "act digital EMEA - Alter Solutions",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-act-digital-emea-alter-solutions-4435456234?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Engineering",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438801492",
+      "jobTitle": "Senior Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Nordea",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-at-nordea-4438801492?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Banking",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435453076",
+      "jobTitle": "Senior Databricks Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "Capgemini",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-databricks-data-engineer-at-capgemini-4435453076?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology and Management",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4411390734",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-21T00:00:00.000Z",
+      "companyName": "Asana",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-asana-4411390734?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4370447390",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "12 hours ago",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "companyName": "PwC Polska",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-pwc-polska-4370447390?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Business Consulting and Services",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4373822008",
+      "jobTitle": "Data Engineer / 1",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-25T00:00:00.000Z",
+      "companyName": "Inetum",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-1-at-inetum-4373822008?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Other",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4374776790",
+      "jobTitle": "Junior Data Engineer / IB",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "companyName": "Inetum",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/junior-data-engineer-ib-at-inetum-4374776790?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Other",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "SQL",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4414341797",
+      "jobTitle": "Software Engineer 5 - Python Platform",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "companyName": "Netflix",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-5-python-platform-at-netflix-4414341797?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Other",
+      "sector": "Entertainment Providers",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Git",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Databricks",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433331943",
+      "jobTitle": "Data Engineer-1",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-25T00:00:00.000Z",
+      "companyName": "Bayer",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-1-at-bayer-4433331943?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Chemical Manufacturing, Pharmaceutical Manufacturing, and Biotechnology Research",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4406071996",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "Procter & Gamble",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-procter-gamble-4406071996?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Project Management, Design, and Information Technology",
+      "sector": "Manufacturing",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4439057704",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "GamblingCareers.com",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-gamblingcareers-com-4439057704?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Gambling Facilities and Casinos",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4389992396",
+      "jobTitle": "Senior Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Samba",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-at-samba-4389992396?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Technology, Information and Internet",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": [
+        "$312000.00",
+        "$395000.00"
+      ]
+    },
+    {
+      "jobId": "4422543197",
+      "jobTitle": "Senior Data Platform Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-21T00:00:00.000Z",
+      "companyName": "Moderna",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-platform-engineer-at-moderna-4422543197?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Biotechnology Research",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433110560",
+      "jobTitle": "Software Engineer (4/5) — Developer Platform",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "companyName": "Netflix",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-4-5-%E2%80%94-developer-platform-at-netflix-4433110560?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Other",
+      "sector": "Entertainment Providers",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433218911",
+      "jobTitle": "Data Analytics Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "companyName": "Bristol Myers Squibb EU Policy",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-analytics-engineer-at-bristol-myers-squibb-eu-policy-4433218911?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Pharmaceutical Manufacturing",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "SQL",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4429459271",
+      "jobTitle": "Data Engineer (AI/ML)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "companyName": "Awin Global",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-ai-ml-at-awin-global-4429459271?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "Advertising Services",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433851899",
+      "jobTitle": "Junior Data Engineer / R",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "companyName": "Inetum",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/junior-data-engineer-r-at-inetum-4433851899?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4439315362",
+      "jobTitle": "Analytics Engineer (DBT, BigQuery)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Box",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/analytics-engineer-dbt-bigquery-at-box-4439315362?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "Construction, Software Development, and IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4437571699",
+      "jobTitle": "SQL Developer/ Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "IT Factory",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/sql-developer-data-engineer-at-it-factory-4437571699?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Other",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4386976022",
+      "jobTitle": "Junior Data Engineer / 1",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "companyName": "Inetum",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/junior-data-engineer-1-at-inetum-4386976022?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Entry level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Databricks",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4427145934",
+      "jobTitle": "Principal Data Platform Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "4 weeks ago",
+      "publishedAt": "2026-06-12T00:00:00.000Z",
+      "companyName": "BioSpace",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/principal-data-platform-engineer-at-biospace-4427145934?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Internet News",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4428198663",
+      "jobTitle": "Reconciliation & Analysis Modernization - Associate",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "companyName": "JPMorganChase",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/reconciliation-analysis-modernization-associate-at-jpmorganchase-4428198663?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Administrative",
+      "sector": "Financial Services",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4434465677",
+      "jobTitle": "GCP Data Governance Engineer - Customer Value and Digital Engagement Department",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "companyName": "T-Mobile Polska",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/gcp-data-governance-engineer-customer-value-and-digital-engagement-department-at-t-mobile-polska-4434465677?trk=public_jobs_topcard-title",
+      "contractType": "Contract",
+      "experienceLevel": "Associate",
+      "workType": "Information Technology",
+      "sector": "Telecommunications",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438899640",
+      "jobTitle": "Senior Data Engineer (Dataiku DSS platform)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "DCG",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-dataiku-dss-platform-at-dcg-4438899640?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4436423554",
+      "jobTitle": "Platform Engineer - ERP Data Platform",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "companyName": "Roche",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/platform-engineer-erp-data-platform-at-roche-4436423554?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Information Technology",
+      "sector": "Pharmaceutical Manufacturing, Biotechnology Research, and Medical Equipment Manufacturing",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "SQL",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438683597",
+      "jobTitle": "Data Engineer Tech Lead",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Sanoma Learning",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-tech-lead-at-sanoma-learning-4438683597?trk=public_jobs_topcard-title",
+      "contractType": "Contract",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "E-learning",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438936559",
+      "jobTitle": "Graduate AI software engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "7 hours ago",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "companyName": "Bending Spoons",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/graduate-ai-software-engineer-at-bending-spoons-4438936559?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Entry level",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438283130",
+      "jobTitle": "Snowflake AI Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 days ago",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "companyName": "Infinite Services",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/snowflake-ai-engineer-at-infinite-services-4438283130?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433236378",
+      "jobTitle": "Senior Software Engineer, Data Platform Insights",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "companyName": "Bolt",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-software-engineer-data-platform-insights-at-bolt-4433236378?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "Databricks",
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4427996776",
+      "jobTitle": "Senior Robotics Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "4 weeks ago",
+      "publishedAt": "2026-06-12T00:00:00.000Z",
+      "companyName": "Nomagic",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-robotics-data-engineer-at-nomagic-4427996776?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Robotics Engineering",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4439575012",
+      "jobTitle": "Praca SQL / ETL Developer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "11 hours ago",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "companyName": "Rex Support Group Foundation",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/praca-sql-etl-developer-at-rex-support-group-foundation-4439575012?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Business Development and Sales",
+      "sector": "Professional Training and Coaching",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4432794571",
+      "jobTitle": "Senior Data Operations Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "companyName": "LionHires Recruitment",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-operations-engineer-at-lionhires-recruitment-4432794571?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Business Development",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4432249452",
+      "jobTitle": "Business Intelligence Developer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "companyName": "Base.com",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/business-intelligence-developer-at-base-com-4432249452?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Other",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "SQL",
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4385038853",
+      "jobTitle": "Data and AI Solutions Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "companyName": "EY",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-and-ai-solutions-engineer-at-ey-4385038853?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering and Information Technology",
+      "sector": "Professional Services",
+      "keywordMatchScorePercentage": 88,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435667235",
+      "jobTitle": "Analytical Engineer (f/m/d)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Awin Global",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/analytical-engineer-f-m-d-at-awin-global-4435667235?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Management and Manufacturing",
+      "sector": "Advertising Services",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "SQL",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4427385322",
+      "jobTitle": "Senior Data Engineer (Snowflake & Azure) | Cloud & Engineering",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Deloitte",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-snowflake-azure-cloud-engineering-at-deloitte-4427385322?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Business Consulting and Services",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4429213989",
+      "jobTitle": "Data Engineer - Data Platform",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-16T00:00:00.000Z",
+      "companyName": "Allegro",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-data-platform-at-allegro-4429213989?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Information Technology",
+      "sector": "Internet Marketplace Platforms and Technology, Information and Media",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Git",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Databricks",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4390356774",
+      "jobTitle": "Cloud Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Samba",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/cloud-engineer-at-samba-4390356774?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Technology, Information and Internet",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": [
+        "$170000.00",
+        "$235000.00"
+      ]
+    },
+    {
+      "jobId": "4422683856",
+      "jobTitle": "Data Engineer (with Snowflake/Databricks)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "companyName": "Sollers Consulting",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-with-snowflake-databricks-at-sollers-consulting-4422683856?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435685615",
+      "jobTitle": "Manufacturing Systems Integration Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "GSK",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/manufacturing-systems-integration-data-engineer-at-gsk-4435685615?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Analyst, Information Technology, and Consulting",
+      "sector": "Pharmaceutical Manufacturing",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "SQL",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4432878485",
+      "jobTitle": "Principal Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "companyName": "Roche",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/principal-data-engineer-at-roche-4432878485?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Information Technology",
+      "sector": "Pharmaceutical Manufacturing, Biotechnology Research, and Medical Equipment Manufacturing",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4428826966",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw Metropolitan Area",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "companyName": "Luxoft Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-luxoft-poland-4428826966?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "C++"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4435462651",
+      "jobTitle": "Junior Azure Data Engineer with Databricks (AI&Data)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "Accenture Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/junior-azure-data-engineer-with-databricks-ai-data-at-accenture-poland-4435462651?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Entry level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4436181094",
+      "jobTitle": "Senior Data Platform Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "companyName": "BioSpace",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-platform-engineer-at-biospace-4436181094?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Internet News",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438319923",
+      "jobTitle": "Software Engineer III, AI/ML Cloud",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Google",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-iii-ai-ml-cloud-at-google-4438319923?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology and Engineering",
+      "sector": "Information Services and Technology, Information and Internet",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "Machine Learning",
+        "C++"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4417930844",
+      "jobTitle": "Software Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "11 hours ago",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "companyName": "Circle K",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-at-circle-k-4417930844?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Associate",
+      "workType": "Engineering and Information Technology",
+      "sector": "Retail",
+      "keywordMatchScorePercentage": 75,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4421723702",
+      "jobTitle": "Senior Data Engineer (M/F/D)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "DSV - Global Transport and Logistics",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-data-engineer-m-f-d-at-dsv-global-transport-and-logistics-4421723702?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Transportation, Logistics, Supply Chain and Storage",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4436631008",
+      "jobTitle": "Software Engineer 5— Platform Modernization Engineering",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Netflix",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-5%E2%80%94-platform-modernization-engineering-at-netflix-4436631008?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Other",
+      "sector": "Entertainment Providers",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "Python"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4320425081",
+      "jobTitle": "AI Engineer (Python Software Engineer + GenAI) | Digital&IPA (freelance)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "companyName": "PwC Polska",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/ai-engineer-python-software-engineer-%2B-genai-digital-ipa-freelance-at-pwc-polska-4320425081?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Business Consulting and Services",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4327979568",
+      "jobTitle": "Data & AI Engineer with MS Fabric or Databricks - Junior/Mid/Senior",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Accenture Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-ai-engineer-with-ms-fabric-or-databricks-junior-mid-senior-at-accenture-poland-4327979568?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4320189469",
+      "jobTitle": "Data and AI DevOps Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 weeks ago",
+      "publishedAt": "2026-06-27T00:00:00.000Z",
+      "companyName": "EY",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-and-ai-devops-engineer-at-ey-4320189469?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Engineering and Information Technology",
+      "sector": "Professional Services",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438201903",
+      "jobTitle": "Software Engineer Frontend",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 days ago",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "companyName": "Microsoft",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-frontend-at-microsoft-4438201903?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "Software Development",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Git",
+        "Azure",
+        "C++"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4429097956",
+      "jobTitle": "Software Engineer, SRE, Data Cloud Platform (AI)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 day ago",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "companyName": "Google",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/software-engineer-sre-data-cloud-platform-ai-at-google-4429097956?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology and Engineering",
+      "sector": "Information Services and Technology, Information and Internet",
+      "keywordMatchScorePercentage": 0,
+      "matchedKeywords": [],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4433924540",
+      "jobTitle": "Data Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "5 days ago",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "companyName": "GFT Technologies Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-engineer-at-gft-technologies-poland-4433924540?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 50,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4429384037",
+      "jobTitle": "Data Analyst",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "companyName": "Flying Bisons",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-analyst-at-flying-bisons-4429384037?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Information Technology",
+      "sector": "Design Services",
+      "keywordMatchScorePercentage": 38,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4410248941",
+      "jobTitle": "Data & AI Solutions Engineer – F/H/X",
+      "location": "Warsaw Metropolitan Area",
+      "postedTime": "3 days ago",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "companyName": "Amaris Consulting",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/data-ai-solutions-engineer-%E2%80%93-f-h-x-at-amaris-consulting-4410248941?trk=public_jobs_topcard-title",
+      "contractType": "Contract",
+      "experienceLevel": "Not Applicable",
+      "workType": "Engineering and Information Technology",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 0,
+      "matchedKeywords": [],
+      "unmatchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4438608213",
+      "jobTitle": "Senior Python Data Scraping Engineer (Freelance)",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "2 days ago",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "companyName": "Mindrift",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/senior-python-data-scraping-engineer-freelance-at-mindrift-4438608213?trk=public_jobs_topcard-title",
+      "contractType": "Part-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Other",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 25,
+      "matchedKeywords": [
+        "Python",
+        "Git"
+      ],
+      "unmatchedKeywords": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": [
+        "$40"
+      ]
+    },
+    {
+      "jobId": "4429793543",
+      "jobTitle": "Tech Lead – Databricks & Data Platform",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "3 weeks ago",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "companyName": "Sollers Consulting",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/tech-lead-%E2%80%93-databricks-data-platform-at-sollers-consulting-4429793543?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Mid-Senior level",
+      "workType": "Design",
+      "sector": "IT Services and IT Consulting and Insurance",
+      "keywordMatchScorePercentage": 63,
+      "matchedKeywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "Azure"
+      ],
+      "unmatchedKeywords": [
+        "Git",
+        "Machine Learning",
+        "C++"
+      ],
+      "salaryInfo": []
+    },
+    {
+      "jobId": "4422764688",
+      "jobTitle": "BI Engineer",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "postedTime": "1 week ago",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "companyName": "TD SYNNEX Poland",
+      "jobUrl": "https://pl.linkedin.com/jobs/view/bi-engineer-at-td-synnex-poland-4422764688?trk=public_jobs_topcard-title",
+      "contractType": "Full-time",
+      "experienceLevel": "Not Applicable",
+      "workType": "Business Development and Sales",
+      "sector": "IT Services and IT Consulting",
+      "keywordMatchScorePercentage": 13,
+      "matchedKeywords": [
+        "SQL"
+      ],
+      "unmatchedKeywords": [
+        "Python",
+        "PySpark",
+        "Databricks",
+        "Git",
+        "Machine Learning",
+        "Azure",
+        "C++"
+      ],
+      "salaryInfo": []
+    }
+  ]
+}
