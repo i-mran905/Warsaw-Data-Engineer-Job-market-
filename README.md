@@ -1,6 +1,6 @@
 # Warsaw Data Engineer Job Market Pipeline
 
-A small end-to-end data pipeline that tracks live "Data Engineer" job postings
+A small end to end data pipeline that tracks live "Data Engineer" job postings
 in Warsaw, Poland and scores each one against my real skill set. Built while
 pivoting from EV/hybrid vehicle engineering into data engineering — I wanted
 real evidence I could build a pipeline, not just another course certificate,
