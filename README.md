@@ -1,16 +1,21 @@
 # Warsaw Data Engineer Job Market Pipeline
 
-A small end to end data pipeline that tracks live "Data Engineer" job postings
+[![CI](https://github.com/i-mran905/Warsaw-Data-Engineer-Job-market-/actions/workflows/ci.yml/badge.svg)](https://github.com/i-mran905/Warsaw-Data-Engineer-Job-market-/actions/workflows/ci.yml)
+
+A small end-to-end data pipeline that tracks live "Data Engineer" job postings
 in Warsaw, Poland and scores each one against my real skill set. Built while
 pivoting from EV/hybrid vehicle engineering into data engineering — I wanted
 real evidence I could build a pipeline, not just another course certificate,
 so I pointed it at the market I was actually applying into.
 
-## Pipeline
+## Architecture
 
-```
-ingest.py  -->  transform.py  -->  load.py  -->  (Power BI / any SQL client)
- (Apify)         (PySpark)       (SQLite)
+```mermaid
+flowchart LR
+    A[Apify\nLinkedIn job scraper] -->|ingest.py| B[(data/raw/\ntimestamped JSON)]
+    B -->|transform.py\nPySpark| C[(data/processed/\njobs.parquet + jobs.csv)]
+    C -->|load.py\nUPSERT| D[(data/warehouse/\njobs.db — SQLite)]
+    D --> E[Power BI /\nany SQL client]
 ```
 
 1. **`ingest.py`** — Pulls live LinkedIn job postings via the Apify
@@ -24,8 +29,9 @@ ingest.py  -->  transform.py  -->  load.py  -->  (Power BI / any SQL client)
    job ID, strips decorative emoji from titles, derives a normalized
    `seniority` bucket (junior/mid/senior/unspecified) primarily from the
    job title text since LinkedIn's own `experienceLevel` field is blank on
-   roughly a third of postings, and extracts a clean city name. Writes
-   `data/processed/jobs.parquet` and `jobs.csv`.
+   roughly a third of postings, and extracts a clean city name. The
+   normalization logic itself lives in `normalize.py` (see below), and
+   writes `data/processed/jobs.parquet` and `jobs.csv`.
 
 3. **`load.py`** — Loads the cleaned data into a small SQLite warehouse
    (`data/warehouse/jobs.db`) using an upsert keyed on job ID, so re-running
@@ -35,6 +41,20 @@ ingest.py  -->  transform.py  -->  load.py  -->  (Power BI / any SQL client)
 
 From there the warehouse file is just a normal SQLite database — point
 Power BI, DB Browser for SQLite, or any BI tool at it directly.
+
+## Project structure
+
+```
+.
+├── ingest.py              # Apify -> data/raw/*.json
+├── transform.py           # PySpark clean/dedupe -> data/processed/
+├── load.py                # parquet -> SQLite warehouse (upsert)
+├── normalize.py           # title/seniority/city cleanup, split out so it's testable
+├── tests/test_normalize.py
+├── sample_output/         # a real run, committed so you can see the data shape
+├── requirements.txt
+└── requirements-dev.txt   # pytest, ruff — only needed if you're developing on this
+```
 
 ## Sample output
 
@@ -51,6 +71,9 @@ a typical junior skill set.
 
 ## Running it yourself
 
+**Prerequisites:** Python 3.9+, and a Java runtime (8, 11, or 17) on `PATH`
+for PySpark.
+
 ```bash
 pip install -r requirements.txt
 export APIFY_API_TOKEN="your-token-from-console.apify.com"
@@ -60,9 +83,27 @@ python transform.py    # -> data/processed/jobs.parquet + jobs.csv
 python load.py          # -> data/warehouse/jobs.db
 ```
 
+## Testing
+
+```bash
+pip install -r requirements-dev.txt
+ruff check .
+ruff format --check .
+pytest
+```
+
+Same three commands run in CI on every push. Only `normalize.py` has real
+unit tests — it's the one piece of logic that doesn't need a live API token
+or a JVM to run, so it's what I could actually test without a lot of extra
+mocking. `ingest.py` and `transform.py` are still just manually verified.
+
 ## Stack
 
 Python, PySpark, SQLite, Apify (LinkedIn scraping actor). Local-only —
 no cloud infra required to run it, though `data/warehouse/jobs.db` swaps
 into Postgres with a small change to `load.py` if you want to run it that
 way instead.
+
+## License
+
+[MIT](LICENSE)
