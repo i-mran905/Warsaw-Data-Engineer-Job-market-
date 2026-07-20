@@ -3,11 +3,23 @@
 # working directory when you actually run the pipeline yourself.
 data/
 
+# Secrets — never commit an Apify token.
+.env
+
 # Python
 __pycache__/
 *.pyc
+*.egg-info/
+build/
+dist/
 .venv/
 venv/
+
+# Test / lint tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
 # OS
 .DS_Store
