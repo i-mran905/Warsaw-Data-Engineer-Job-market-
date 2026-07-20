@@ -26,6 +26,7 @@ Why this file has no size limits (unlike the one-off snapshot from chat):
 
 import argparse
 import json
+import logging
 import os
 import sys
 from datetime import datetime, timezone
@@ -34,9 +35,10 @@ from pathlib import Path
 try:
     from apify_client import ApifyClient
 except ImportError:
-    sys.exit(
-        "Missing dependency. Run: pip install apify-client"
-    )
+    sys.exit("Missing dependency. Run: pip install apify-client")
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+logger = logging.getLogger(__name__)
 
 ACTOR_ID = "cheap_scraper/linkedin-job-scraper"
 RAW_DIR = Path(__file__).parent / "data" / "raw"
@@ -76,18 +78,27 @@ def run_ingest(keyword: str, location: str, max_items: int, published_window: st
         "resumeKeywords": RESUME_KEYWORDS,
     }
 
-    print(f"Starting actor run: keyword={keyword!r} location={location!r} maxItems={max_items}")
-    run = client.actor(ACTOR_ID).call(run_input=run_input)
+    logger.info("Starting actor run: keyword=%r location=%r maxItems=%d", keyword, location, max_items)
+    try:
+        run = client.actor(ACTOR_ID).call(run_input=run_input)
+    except Exception as exc:
+        # apify-client raises its own ApifyApiError plus assorted network
+        # errors (requests.exceptions.*); surface a clear, actionable
+        # message instead of a raw traceback.
+        sys.exit(f"Apify actor run failed: {exc}")
 
     dataset_id = run["defaultDatasetId"]
-    print(f"Run finished (id={run['id']}). Pulling all items from dataset {dataset_id} ...")
+    logger.info("Run finished (id=%s). Pulling all items from dataset %s ...", run["id"], dataset_id)
 
     items = list(client.dataset(dataset_id).iterate_items())
-    print(f"Pulled {len(items)} raw items (no fields trimmed).")
+    logger.info("Pulled %d raw items (no fields trimmed).", len(items))
 
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-    out_path = RAW_DIR / f"raw_linkedin_jobs_{location.split(',')[0].strip().lower()}_{keyword.strip().lower().replace(' ', '_')}_{ts}.json"
+    out_path = (
+        RAW_DIR
+        / f"raw_linkedin_jobs_{location.split(',')[0].strip().lower()}_{keyword.strip().lower().replace(' ', '_')}_{ts}.json"
+    )
 
     payload = {
         "ingested_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -106,7 +117,7 @@ def run_ingest(keyword: str, location: str, max_items: int, published_window: st
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Wrote raw snapshot: {out_path}")
+    logger.info("Wrote raw snapshot: %s", out_path)
     return out_path
 
 

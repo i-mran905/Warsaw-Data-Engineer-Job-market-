@@ -28,11 +28,15 @@ Run:
   python load.py
 """
 
+import logging
 import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).parent
 PARQUET_PATH = BASE_DIR / "data" / "processed" / "jobs.parquet"
@@ -93,12 +97,16 @@ ON CONFLICT(jobId) DO UPDATE SET
 """
 
 
-def main():
+def main() -> None:
     if not PARQUET_PATH.exists():
         raise SystemExit(f"{PARQUET_PATH} not found. Run transform.py first.")
 
     df = pd.read_parquet(PARQUET_PATH)
-    print(f"Read {len(df)} rows from {PARQUET_PATH}")
+    logger.info("Read %d rows from %s", len(df), PARQUET_PATH)
+
+    if df.empty:
+        logger.warning("Parquet file has zero rows — nothing to load.")
+        return
 
     # array columns come out of parquet as numpy arrays/lists; flatten to
     # pipe-delimited strings for SQLite storage (mirrors the CSV output).
@@ -118,26 +126,40 @@ def main():
 
         rows = [
             (
-                r.jobId, r.jobTitleClean, r.companyName, r.city, r.seniority,
-                r.contractType, r.workType, r.sector, r.publishedAt,
+                r.jobId,
+                r.jobTitleClean,
+                r.companyName,
+                r.city,
+                r.seniority,
+                r.contractType,
+                r.workType,
+                r.sector,
+                r.publishedAt,
                 int(r.keywordMatchScorePercentage) if pd.notna(r.keywordMatchScorePercentage) else None,
-                r.matchedKeywords, r.unmatchedKeywords, r.jobUrl, loaded_at,
+                r.matchedKeywords,
+                r.unmatchedKeywords,
+                r.jobUrl,
+                loaded_at,
             )
             for r in df.itertuples(index=False)
         ]
-        conn.executemany(UPSERT, rows)
-        conn.commit()
+        try:
+            conn.executemany(UPSERT, rows)
+            conn.commit()
+        except sqlite3.Error:
+            conn.rollback()
+            raise
 
         total = conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
-        print(f"Upserted {len(rows)} rows. Warehouse table now has {total} total rows.")
+        logger.info("Upserted %d rows. Warehouse table now has %d total rows.", len(rows), total)
 
-        print("\nv_daily_summary:")
+        logger.info("v_daily_summary:")
         for row in conn.execute("SELECT * FROM v_daily_summary"):
-            print(" ", row)
+            logger.info("  %s", row)
     finally:
         conn.close()
 
-    print(f"\nWarehouse file: {DB_PATH}")
+    logger.info("Warehouse file: %s", DB_PATH)
 
 
 if __name__ == "__main__":

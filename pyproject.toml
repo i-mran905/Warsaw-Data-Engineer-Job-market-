@@ -1,0 +1,28 @@
+[project]
+name = "warsaw-data-engineer-job-market-pipeline"
+version = "1.1.0"
+description = "End-to-end pipeline tracking live Data Engineer job postings in Warsaw, Poland: Apify ingest -> PySpark transform -> SQLite warehouse."
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+
+[tool.ruff.lint]
+# E/F: pyflakes+pycodestyle core errors. I: import sorting. UP: pyupgrade.
+# B: flake8-bugbear (catches common real bugs, e.g. mutable default args).
+select = ["E", "F", "I", "UP", "B"]
+ignore = [
+    "E501",  # line length is enforced by the formatter, not the linter
+]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+# Lets `pytest` resolve `from normalize import ...` regardless of which
+# directory it's invoked from, without needing tests/__init__.py.
+pythonpath = ["."]
+testpaths = ["tests"]
