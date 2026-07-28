@@ -4,13 +4,9 @@ load.py — Loads the cleaned parquet output into a small SQLite warehouse.
 Reads:  data/processed/jobs.parquet   (written by transform.py)
 Writes: data/warehouse/jobs.db        (SQLite database, table: jobs)
 
-Why SQLite instead of Postgres: zero setup, the whole warehouse is one
-portable file you can open with any DB tool (DB Browser for SQLite, VS
-Code's SQLite extension, even `sqlite3` on the command line), and Power BI
-connects to it directly via its built-in ODBC/SQLite connector. If you later
-want a "real" server-based warehouse for the portfolio story, swapping the
-engine here for psycopg2 + a connection string is a small change — the
-schema and load logic stay the same.
+SQLite keeps the project local and portable. The warehouse is one file that
+can be inspected with DB Browser for SQLite, the SQLite command line, or an
+ODBC-compatible BI tool.
 
 What this does beyond a raw dump:
   - Creates the table with an explicit schema (not just "whatever pandas
@@ -32,6 +28,7 @@ import logging
 import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 import pandas as pd
 
@@ -97,17 +94,13 @@ ON CONFLICT(jobId) DO UPDATE SET
 """
 
 
-def main() -> None:
-    if not PARQUET_PATH.exists():
-        raise SystemExit(f"{PARQUET_PATH} not found. Run transform.py first.")
-
-    df = pd.read_parquet(PARQUET_PATH)
-    logger.info("Read %d rows from %s", len(df), PARQUET_PATH)
-
-    if df.empty:
-        logger.warning("Parquet file has zero rows — nothing to load.")
-        return
-
+def write_warehouse(
+    df: pd.DataFrame,
+    db_path: Path,
+    loaded_at: Optional[str] = None,
+) -> int:
+    """Upsert a transformed jobs frame and return the warehouse row count."""
+    df = df.copy()
     # array columns come out of parquet as numpy arrays/lists; flatten to
     # pipe-delimited strings for SQLite storage (mirrors the CSV output).
     for col in ("matchedKeywords", "unmatchedKeywords"):
@@ -116,10 +109,9 @@ def main() -> None:
                 lambda v: "|".join(v) if hasattr(v, "__iter__") and not isinstance(v, str) else (v or "")
             )
 
-    loaded_at = datetime.now(timezone.utc).isoformat()
-
-    WAREHOUSE_DIR.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(DB_PATH)
+    loaded_at = loaded_at or datetime.now(timezone.utc).isoformat()
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(db_path)
     try:
         conn.execute(SCHEMA)
         conn.execute(SUMMARY_VIEW)
@@ -156,9 +148,23 @@ def main() -> None:
         logger.info("v_daily_summary:")
         for row in conn.execute("SELECT * FROM v_daily_summary"):
             logger.info("  %s", row)
+        return total
     finally:
         conn.close()
 
+
+def main() -> None:
+    if not PARQUET_PATH.exists():
+        raise SystemExit(f"{PARQUET_PATH} not found. Run transform.py first.")
+
+    df = pd.read_parquet(PARQUET_PATH)
+    logger.info("Read %d rows from %s", len(df), PARQUET_PATH)
+
+    if df.empty:
+        logger.warning("Parquet file has zero rows — nothing to load.")
+        return
+
+    write_warehouse(df, DB_PATH)
     logger.info("Warehouse file: %s", DB_PATH)
 
 
