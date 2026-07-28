@@ -18,10 +18,8 @@ Run:
   python ingest.py
   python ingest.py --keyword "Analytics Engineer" --location "Krakow, Poland"
 
-Why this file has no size limits (unlike the one-off snapshot from chat):
-  This talks to the Apify API directly, so nothing round-trips through a
-  chat context window. It will happily pull thousands of items with full
-  job descriptions.
+The actor output is stored without trimming so the raw snapshot can be
+reprocessed when transformation logic changes.
 """
 
 import argparse

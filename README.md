@@ -1,13 +1,12 @@
 # Warsaw Data Engineer Job Market Pipeline
 
-[![CI](https://github.com/i-mran905/Warsaw-Data-Engineer-Job-market-/actions/workflows/ci.yml/badge.svg)](https://github.com/i-mran905/Warsaw-Data-Engineer-Job-market-/actions/workflows/ci.yml)
+[![CI](https://github.com/i-mran905/warsawdataengineerjobpipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/i-mran905/warsawdataengineerjobpipeline/actions/workflows/ci.yml)
 
 An end-to-end batch data pipeline that tracks live "Data Engineer" job
 postings in Warsaw, Poland and scores each one against my real skill set.
-Built while pivoting from EV/hybrid vehicle engineering into data
-engineering — I wanted real evidence I could build a pipeline, not just
-another course certificate, so I pointed it at the market I was actually
-applying into.
+I built it while applying for data engineering roles in Warsaw, so its output
+answered a question I was dealing with directly: how many suitable roles were
+available, and what skills did they require?
 
 ## Overview
 
@@ -18,21 +17,9 @@ single script that reads what the previous one wrote.
 
 ## Business problem
 
-If you're job-hunting for a specific role in a specific city, you want to
-know: how many roles are actually out there, at what seniority, and how well
-do they line up with what I can do? This pipeline answers that with data
-instead of guesswork — and doubles as concrete proof I can build the kind of
-pipeline the roles themselves ask for.
-
-## Why this project exists
-
-Coming from mechanical / EV engineering, I didn't want to lean only on
-certificates. A working end-to-end pipeline — ingestion from a real API,
-distributed-style transformation, a warehouse with an idempotent load — is
-harder to fake and easier to talk about in an interview than a course badge.
-I aimed it at the Warsaw Data Engineer market because that's the market I was
-applying into, so the output was useful to me on top of being a portfolio
-piece.
+The project measures the number and seniority of available roles and compares
+their requested skills with my current skills. It turns a narrow job-search
+question into a repeatable ingest, transform, and load workflow.
 
 ## Architecture
 
